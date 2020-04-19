@@ -21,7 +21,7 @@
       <h5 class="card-title">{{ . | markdownify }}</h5>
     {{ end }}
     {{ with (.Get "text") }}
-      <p class="card-text">{{ . | markdownify }}</p>
+      <p style="font-size: .8em" class="card-text">{{ . | markdownify }}</p>
     {{ end }}
     </div>
   {{ end }}
