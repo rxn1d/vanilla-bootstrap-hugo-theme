@@ -1,0 +1,82 @@
+body {
+    background-color: white;
+}
+
+p {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+#card-bg {
+    position: relative;
+    background-image: url("../Gear-Wheels-flatten.jpg");
+    opacity: 0.2;
+    background-size: cover;
+    background-position: center;
+    width: 70%;
+    height: 40%;
+    top: 0%;
+    left: 30%;
+    z-index: 0;
+}
+
+#line {
+    position:fixed;
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+    height: 1%;
+    top: 65%;
+    left: 10%;
+    z-index: 0;
+    border-top: 5px solid black;
+}
+
+#container {
+    position: fixed;
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+    height: 100%;
+    top: 10%;
+    left: 10%;
+    border: 5px solid black;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background-color: white;
+    border-radius: 35px;
+    z-index: 1;
+}
+
+#profile {
+    position: absolute;
+    background-size: auto;
+    background-position: left;
+    width: initial;
+    height: 32%;
+    top: 67%;
+    left: 14%;
+    z-index: 2;
+}
+
+#header {
+    font-weight: bolder;
+    font-size: 3em;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-align: right;
+    color: #007bff;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    z-index: 0;
+}
+
+#header-container {
+    position: relative;
+    background-image: url("../on_interviews/whiteboard3.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 55%;
+    z-index: 0;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
