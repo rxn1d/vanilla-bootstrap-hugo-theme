@@ -1,15 +1,8 @@
 {{ define "main" }}
 
-<div id="home-jumbotron" class="jumbotron text-center">
 {{ with .Content }}
   <h1>{{ $.Page.Title }}</h1>
   {{ . }}
 {{ else }}
-  <h1>{{ .Site.Title }}</h1>
-  <p class="font-125">{{ .Site.Params.homeText | markdownify }}</p>
-  <img src="{{ "Gear-Wheels-flatten.jpg" | absURL }}"/>
-  <a href="https://www.vecteezy.com/free-vector/gear">Gear Vectors by Vecteezy</a>
 {{ end }}
-</div>
-
 {{ end }}
